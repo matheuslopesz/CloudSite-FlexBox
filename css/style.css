@@ -95,8 +95,9 @@ img {
 }
 .product-item {
     flex: 1 1 300px;
-    border: 4px solid white;
-    padding: 20px;
-    margin: 10px;
-    min-width: 260px;
+    margin: 20px 10px;
+    font-size: 3.2em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }
