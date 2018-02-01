@@ -81,3 +81,22 @@ img {
          padding: 5px 8px;
     }
 }
+/*Produtos */
+.products-bg {
+    background: #0198EF;
+    height: 550px;
+}
+.product {
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.product-item {
+    flex: 1 1 300px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+    min-width: 260px;
+}
