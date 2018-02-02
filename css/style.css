@@ -168,9 +168,6 @@ img {
     padding: 60px;
     align-items: flex-end;
 }
-.price-item {
-    flex: 1;
-}
 .price-header h1 {
     flex: 1 1 300px;
     color: #4A5669;
@@ -194,6 +191,9 @@ img {
     margin: 10px;
     min-width: 260px
 }
+.colored-price {
+    border: 3px solid #0098EF;
+}
 .price-item h2, h3 {
     text-align: center;
     color: #535F71;
@@ -203,7 +203,7 @@ img {
    margin-top: 10px;
 }
 .price-number {
-    border-bottom: 3px solid #E6E9EE;
+    border-bottom: 2px solid #E6E9EE;
 }
 .price-number span {
     color: #0098EF;
