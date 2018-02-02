@@ -186,3 +186,37 @@ img {
     text-align: center;
     margin-top: 30px;
 }
+.price-item {
+    flex: 1;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 260px
+}
+.price-item h2, h3 {
+    text-align: center;
+    color: #535F71;
+    margin-top: 35px;
+    font-weight: normal;
+}
+.price-number {
+    border-bottom: 3px solid #E6E9EE;
+}
+.price-number span {
+    color: #0098EF;
+    font-size: 2.5em;
+    font-weight: bold;
+    max-width: 300px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.price-item ul {
+     text-align: center;
+     padding-top: 30px;
+}
+.price-item ul span{
+     font-weight: bold;
+}
+
