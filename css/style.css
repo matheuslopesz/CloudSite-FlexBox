@@ -161,3 +161,28 @@ img {
 .plataform-item a {
     color:#19A2F0; 
 }
+.price {
+    background: #F0F2F5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    align-items: flex-end;
+}
+.price-item {
+    flex: 1;
+}
+.price-header h1 {
+    flex: 1 1 300px;
+    color: #4A5669;
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+}
+.price-header h2 {
+    flex: 1 1 900px;
+    color: #4A5669;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+}
