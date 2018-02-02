@@ -224,3 +224,27 @@ img {
 .price-general li{
     color: #C2C9D4;
 }
+.price-button{
+    display: flex;
+}
+.price-button i {
+
+}
+.price-item a {
+    max-width: 300px;
+    background: #FFCC33;
+    padding: 12px 70px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #2F3D44;
+    font-weight: bold;
+}
+@media (max-width: 800px){
+    .price-item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
