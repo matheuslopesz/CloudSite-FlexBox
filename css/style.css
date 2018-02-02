@@ -128,8 +128,10 @@ img {
     font-weight: normal;
 }
 .plataform-header h2 {
-    flex: 1 1 300px;
+    flex: 1 1 900px;
     color: #4A5669;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
 }
