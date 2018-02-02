@@ -135,3 +135,29 @@ img {
     text-align: center;
     margin-top: 30px;
 }
+.plataform-container {
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.plataform-item {
+    flex: 1 1 300px;
+    margin: 20px 10px;
+    text-align: center;
+}
+.plataform-item h2{
+    font-weight: normal;
+    color: #4A5669;
+}
+.plataform-item h3{
+    font-weight: normal;
+    color: #4A5669;
+}
+.plataform-icon  {
+    font-size: 3.5em;
+    color: #0098EF;   
+}
+.plataform-item a {
+    color:#19A2F0; 
+}
