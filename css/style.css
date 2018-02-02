@@ -197,8 +197,10 @@ img {
 .price-item h2, h3 {
     text-align: center;
     color: #535F71;
-    margin-top: 35px;
+    margin-top: 30px;
     font-weight: normal;
+}.price-item h3 {
+   margin-top: 10px;
 }
 .price-number {
     border-bottom: 3px solid #E6E9EE;
@@ -219,4 +221,6 @@ img {
 .price-item ul span{
      font-weight: bold;
 }
-
+.price-general li{
+    color: #C2C9D4;
+}
