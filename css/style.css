@@ -279,5 +279,15 @@ img {
     padding: 10px;
     margin: 10px;
 }
+.comment-icon a {
+    color: #0098EF;
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+.comment-author p {
+    color: #A0ABBC;
+    text-align: center;
 
+}
 
