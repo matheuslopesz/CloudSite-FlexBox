@@ -345,4 +345,14 @@ img {
 }
 .footer-item {
     flex: 2;
+    display: flex;
+    flex-wrap: wrap;
 }
+.footer-description {
+    flex: 1;
+}
+.footer-description h5{
+    
+}
+
+
