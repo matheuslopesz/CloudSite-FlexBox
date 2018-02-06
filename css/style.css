@@ -111,6 +111,9 @@ img {
     margin: 10px 10px;
     align-self:center;
 }
+.product-description{
+    text-align: center;
+}
 .plataform {
     background: #FFFFFF;
     max-width: 960px;
