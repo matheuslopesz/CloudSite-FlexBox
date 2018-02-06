@@ -194,7 +194,7 @@ img {
 .colored-price {
     border: 3px solid #0098EF;
 }
-.price-item h2, h3 {
+.price-item h2, .price-item h3 {
     text-align: center;
     color: #535F71;
     margin-top: 30px;
@@ -323,4 +323,26 @@ img {
     color: #2F3D44;
     font-weight: bold;
 }
-
+.footer {
+    background:#2C3645;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+.footer-item-about {
+    flex: 1;
+}
+.footer-item-about h3 {
+    color: #667791;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+.footer-item-about p {
+    color: #667791;
+    font-size: 0.95em;
+    line-height: 1.8em;
+}
+.footer-item {
+    flex: 2;
+}
