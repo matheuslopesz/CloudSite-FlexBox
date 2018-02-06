@@ -1,4 +1,4 @@
-body,h1,h2,p,ul,li,a {
+body,h1,h2,h5,p,ul,li,a {
     margin: 0px;
     padding: 0px;
 }
@@ -329,6 +329,10 @@ img {
     flex-wrap: wrap;
     padding: 60px;
 }
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer-item-about {
     flex: 1;
 }
@@ -356,14 +360,13 @@ img {
     flex: 1;
     margin-left: 20px;
 }
-.footer-description h5{
+.footer-description h3{
     color: #667791;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.85em;
 }
 .footer-description a {
-    align-self: baseline;
     font-size: 1em;
     color: white;
     line-height: 1.8em;
