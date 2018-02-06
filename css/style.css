@@ -144,6 +144,9 @@ img {
     display: flex;
     flex-wrap: wrap;
 }
+.plataform-container a {
+    align-items: flex-end;
+}
 .plataform-item {
     flex: 1 1 300px;
     margin: 20px 10px;
