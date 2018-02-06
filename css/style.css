@@ -343,6 +343,9 @@ img {
     font-size: 0.95em;
     line-height: 1.8em;
 }
+.footer-adress {
+    margin-top: 10px;
+}
 .footer-item {
     align-self: baseline;
     flex: 2;
