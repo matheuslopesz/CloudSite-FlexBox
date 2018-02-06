@@ -352,13 +352,12 @@ img {
 }
 .footer-item {
     align-self: baseline;
-    flex: 2;
+    flex: 2 1 300px;
     display: flex;
     flex-wrap: wrap;
 }
 .footer-description {
-    flex: 1;
-    margin-left: 20px;
+    flex: 1 1 300px;
 }
 .footer-description h3{
     color: #667791;
@@ -369,5 +368,8 @@ img {
 .footer-description a {
     font-size: 1em;
     color: white;
-    line-height: 1.8em;
+    line-height: 2.5em;
 }
+
+
+
