@@ -357,7 +357,8 @@ img {
     flex-wrap: wrap;
 }
 .footer-description {
-    flex: 1 1 300px;
+    flex: 1 1 200px;
+    margin-left: 40px;
 }
 .footer-description h3{
     color: #667791;
@@ -370,6 +371,10 @@ img {
     color: white;
     line-height: 2.5em;
 }
-
+@media (max-width: 600px){
+    .footer-description {
+    margin-left: 0px;
+}
+}
 
 
