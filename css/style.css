@@ -366,11 +366,18 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.85em;
+    padding-left: 10px;
 }
 .footer-description a {
     font-size: 1em;
     color: white;
     line-height: 2.5em;
+    padding: 10px;
+    border-radius:10px;
+}
+.footer-description a:hover {
+    background:#3C4655;
+
 }
 @media (max-width: 600px){
     .footer-description {
